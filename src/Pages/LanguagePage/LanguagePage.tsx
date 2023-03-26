@@ -13,7 +13,6 @@ export const LanguagePage = () => {
 
     return (
         <div className={s.languageWrapper}>
-            <div><h1>Ernar</h1></div>
             <div className={s.navbar}>
                 <button className={s.bat} onClick={goBack}>
                     {t("BACK_TO_RESTAURANTS")}
