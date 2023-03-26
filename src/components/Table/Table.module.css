@@ -1,0 +1,76 @@
+.table {
+    width: 400px;
+    margin: auto;
+}
+
+.orders {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 15px 15px 0px 0px;
+    height: 35px;
+    color: white;
+ }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    width: 348px;
+    height: 225px;
+    overflow-y: auto;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 7px;
+    box-shadow: 3px 5px 5px lightgray;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    width: 349px;
+    height: 225px;
+    overflow-y: auto;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 5px 5px lightgray;
+}
+
+.item {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+
+}
+
+.item button {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    box-shadow: 3px 5px 5px lightgrey;
+    font-size: 17px;
+    font-weight: 1000;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+}

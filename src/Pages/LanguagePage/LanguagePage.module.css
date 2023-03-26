@@ -1,0 +1,39 @@
+.languageWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background: silver;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.page__current {
+    padding: 10px;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.bat {
+    margin-right: auto;
+}
+
+.navbar__items a {
+    margin: 3px;
+}
+
+

@@ -1,0 +1,40 @@
+.main-container {
+    width: 400px;
+    margin: auto;
+
+}
+
+.Slider {
+    width: 348px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 3px 5px 5px darkgray;
+}
+
+.leftArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 20px;
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+.rightArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 20px;
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
